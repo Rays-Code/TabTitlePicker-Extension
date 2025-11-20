@@ -1,0 +1,45 @@
+
+body {
+
+    background-color: #5992ED;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading {
+    color: white;
+}
+
+#title-box{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    color: #5992ED;
+    font-size: large;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;          
+    justify-content: center;     
+    align-items: center;
+}
+
+#pickTitleBtn {
+    width: 150px;
+    background-color: white;
+    font-weight: 700;
+    color: #5992ED;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
